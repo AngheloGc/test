@@ -19,7 +19,7 @@ function DeleteItem(e) {
     item.parentNode.removeChild(item);
 }
 
-$.getJSON('https://api.myjson.com/bins/d26m3', function(data) {
+$.getJSON('lista.json', function(data) {
 
 	for (var i = 0; i < data.items.length; i++) {
 
