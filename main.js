@@ -6,8 +6,7 @@ function AddItem() {
 
 	item.className = 'item';
 
-    item.innerHTML =
-        "<img src="+url+"><p class='SongName'>"+song+"</p><span onclick='DeleteItem(this)' class='deleteItem'>X</span>";
+    item.innerHTML = "<img src="+url+"><p class='SongName'>"+song+"</p><span onclick='DeleteItem(this)' class='deleteItem'>X</span>";
 
     document.getElementById('main').appendChild(item);
 
