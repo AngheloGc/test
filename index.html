@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="$1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Cola de Videos Anime Sama</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="author" href="humans.txt">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+    </head>
+    <body>
+        <p class="title">COLA DE VIDEOS <span>ANIME SAMA</span></p>
+        <main>
+            <div class="numbers">
+            <span>1ro</span>
+            <span>2do</span>
+            <span>3ro</span>
+        </div>
+        <div class="main" id="main">
+            <div class="item">
+                <img src="img/default.png">
+                <p class="SongName">Item 1</p>
+                <span onclick="DeleteItem(this)" class="deleteItem">X</span>
+            </div>
+        </div>
+        </main>
+        <div class="form">
+            <span>URL Image:</span>
+            <input id="url" type="text" name="">
+            <span>Song Name:</span>
+            <input id="songName" type="text" name="">
+            <input onclick="AddItem()" type="submit" name="submit" value="Agregar">           
+        </div>
+        <script type="text/javascript" src="https://codebeautify.org/online-json-editor/cb17a695"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
